@@ -12,6 +12,7 @@
                 :type="collapsed ? 'menu-unfold' : 'menu-fold'"
                 @click="()=> collapsed = !collapsed"
             />
+            <br>
             <div class="logo" >
                 <img src="http://www.zhoujizhi.com/static/img/logo.5990b69.png" alt="">
             </div>
