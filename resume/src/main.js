@@ -4,7 +4,7 @@
 import Vue from "vue";
 // import Button from "ant-design-vue/lib/button";
 // import "ant-design-vue/dist/antd.css";
-import { Button , Layout , Menu , Icon } from 'ant-design-vue';
+import { Button , Layout , Menu , Icon , Row , Col } from 'ant-design-vue';
 import App from "./App";
 
 
@@ -14,8 +14,8 @@ Vue.use(Button);
 Vue.use(Layout);
 Vue.use(Menu);
 Vue.use(Icon);
-// Vue.use(Content);
-// Vue.use(Footer);
+Vue.use(Row);
+Vue.use(Col);
 
 Vue.config.productionTip = false
 
