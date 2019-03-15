@@ -84,14 +84,15 @@
                             <p>个人项目</p>
                             <div class="text">
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31"><a href="http://www.zhoujizhi.com/">个人博客</a></span>，前端使用js的vue框架，后台使用node的express，使用ubuntu系统在腾讯云上部署的项目。博客中每个页面的、功能的设计到美工到实现都是独立完成。博客适配pc端与手机端。<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31"><a href="http://todo.zhoujizhi.com/">todo应用</a></span>，除了todo功能，还有自定义主题，自定义任务颜色等功能。其中在todo首页任务列表优化那里遇到了小问题，就是任务可以水平滑动，任务列表可以垂直滑动，两个方向是可以同时滑动的，这样体验非常不好，解决的办法就是判断移动的位置与按下的位置来决定允许滑动方向。<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31"><a href="http://todo.zhoujizhi.com/">todo应用</a></span>，除了todo功能，还有自定义主题，自定义任务颜色等功能。其中在todo首页任务列表优化那里遇到了小问题，就是任务可以水平滑动，任务列表可以垂直滑动，两个方向是可以同时滑动的，这样体验非常不好，解决的办法就是判断移动的位置与按下的位置来决定允许滑动方向。<br><br><br>
                             </div>
 
                             <p>广东蓝莎信息科技有限公司  2016 - 2019</p>
                             <div class="text">
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司只有一个前端，负责全公司的产品、官网的前端开发。<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31">灵猫御医健康平台</span>，基于vue框架的项目，有<span class="colored7d31">在线预约</span>、<span class="colored7d31">诊断</span>（<span class="colored7d31">图文</span>）、<span class="colored7d31">个人档案</span>等。其中遇到了比较有代表性的问题:医生列表太长，加载较慢，滑动不流畅。优化思路:异步分页加载，按需显示在页面上，通过页数只显示当前页面医生，滑动到底部再请求，再将不需要的去除。后续优化解决回滚问题，<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31">西牛汇</span>，基于jquery的项目，是一个O2O平台。其中遇到了比较有代表性的问题:入驻商家可以在百度地图上显示出来，首先是定位问题，gps经纬度要转换成百度地图经纬度，其次是按照距离在地图上标注商家位置，一开始没有优化，通过经纬度、两点的直线计算距离，这个方法需要大量的计算，导致进入地图会卡顿，有的手机会出现内存不足、微信闪退，后续解决办法是想到了用相似的经纬度查找，例如23.13777，113.278341，就将23.13***，113.27****的在百度地图上标注出来。<br><br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31">溜溜美家</span>，基于jquery的项目，是一个短租、长租都兼具的在线租赁平台，有上传房源、地图找房、在线看房等。其中遇到了比较有代表性的问题:入驻商家可以在百度地图上显示出来，首先gps经纬度要转换成百度地图经纬度，其次是按照距离在地图上标注商家位置，通过两点间的距离，这个方法需要大量的计算，导致进入地图会卡顿，后续解决办法是想到了用相似的经纬度查找，例如23.13777，113.278341，就将23.13***，113.27****的在百度地图上标注出来。<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31">西牛汇</span>，基于jquery的项目，是一个O2O平台。在我刚进入公司的时候就有一个上传图片功能的需求，当时用了canvas，转为base64上传，按照需求可以旋转、压缩，方法就是控制canvas的大小，可是这样有了新的问题，就是当将canvas一个点一个点转为base64的时候，有的手机内存小，会出现微信闪退等问题。<br><br><br>
                             </div>
                         </a-col>
                     </a-row>
@@ -109,8 +110,8 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;2、熟悉Javascript框架，如<span class="colored7d31">vue</span>、<span class="colored7d31">vuex</span>、<span class="colored7d31">vue-router</span>、<span class="colored7d31">jquery</span>，主题框架有<span class="colored7d31">antd</span>。了解过微信小程序。<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;3、熟悉html、css，能够处理不同浏览器的问题，能手写符合<span class="colored7d31">语义化</span>、<span class="colored7d31">SEO</span>良好的页面。熟悉<span class="colored7d31">屏幕适配</span>与基于<span class="colored7d31">css的动画</span>编写。<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;4、掌握node与sql，linux的ubuntu系统操作。<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;5、熟悉git版本控制，熟练使用chrome，firebug，微信开发者工具等调试工具，熟练使用VScode、Sublime Text编辑软件。<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;6、有良好的编程习惯，从代码缩进、命名规范，到git提交规范，都是严格按照要求执行。<br><br><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;5、熟悉git版本控制，熟练使用<span class="colored7d31">chrome</span>，<span class="colored7d31">firebug</span>，<span class="colored7d31">微信开发者工具</span>等调试工具，熟练使用<span class="colored7d31">VScode</span>、<span class="colored7d31">Sublime Text</span>编辑软件。<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;6、有良好的<span class="colored7d31">编程习惯</span>，从代码缩进、命名规范，到git提交规范，都是严格按照要求执行。<br><br><br>
                         </a-col>
                     </a-row>
 
@@ -162,6 +163,9 @@ export default {
 </script>
 
 <style>
+    .text a{
+        text-decoration: underline;
+    }
     .logo img{
         width: 100%;
     }
