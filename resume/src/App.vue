@@ -85,7 +85,6 @@
                             <div class="text">
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31"><a href="http://www.zhoujizhi.com/">个人博客</a></span>，前端使用js的vue框架，后台使用node的express，使用ubuntu系统在腾讯云上部署的项目。博客中每个页面的、功能的设计到美工到实现都是独立完成。博客适配pc端与手机端。<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31"><a href="http://todo.zhoujizhi.com/">todo应用</a></span>，除了todo功能，还有自定义主题，自定义任务颜色等功能。其中在todo首页任务列表优化那里遇到了小问题，就是任务可以水平滑动，任务列表可以垂直滑动，两个方向是可以同时滑动的，这样体验非常不好，解决的办法就是判断移动的位置与按下的位置来决定允许滑动方向。<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colored7d31"><a href="javascript:void(0);">个人在线简历</a></span>，使用了ant前端主题框架。<br><br>
                             </div>
 
                             <p>广东蓝莎信息科技有限公司  2016 - 2019</p>
@@ -107,7 +106,7 @@
                     <a-row class="cont conttext">
                         <a-col :offset="2" :span="22">
                             &nbsp;&nbsp;&nbsp;&nbsp;1、熟练运用Javascript语言，较深入了解<span class="colored7d31">原型链</span>、<span class="colored7d31">es6继承</span>、<span class="colored7d31">执行上下文</span>、<span class="colored7d31">闭包</span>、<span class="colored7d31">面向对象编程</span>等。对Js的细节有较深度的探究，例如window的isNaN与es6新增的Number类上的isNaN等。<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;2、熟悉Javascript框架，如<span class="colored7d31">vue</span>、<span class="colored7d31">vuex</span>、<span class="colored7d31">vue-router</span>、<span class="colored7d31">jquery</span>，主题框架有<span class="colored7d31">ant</span>。了解过微信小程序。<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;2、熟悉Javascript框架，如<span class="colored7d31">vue</span>、<span class="colored7d31">vuex</span>、<span class="colored7d31">vue-router</span>、<span class="colored7d31">jquery</span>，主题框架有<span class="colored7d31">antd</span>。了解过微信小程序。<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;3、熟悉html、css，能够处理不同浏览器的问题，能手写符合<span class="colored7d31">语义化</span>、<span class="colored7d31">SEO</span>良好的页面。熟悉<span class="colored7d31">屏幕适配</span>与基于<span class="colored7d31">css的动画</span>编写。<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;4、掌握node与sql，linux的ubuntu系统操作。<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;5、熟悉git版本控制，熟练使用chrome，firebug，微信开发者工具等调试工具，熟练使用VScode、Sublime Text编辑软件。<br>
